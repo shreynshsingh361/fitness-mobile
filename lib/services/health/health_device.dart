@@ -17,7 +17,7 @@ const _access = [HealthDataAccess.READ]; // this app only ever reads
 
 /// The most the backend accepts for one day. One odd reading must not get the whole sync
 /// rejected, so anything above it is capped.
-const _maxStepsPerDay = 200000;
+const _maxStepsPerDay = 100000;
 
 /// Apple Health on an iPhone; on Android, every app that holds steps.
 ///
